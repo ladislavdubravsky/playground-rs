@@ -26,7 +26,7 @@ macro_rules! swap_function_application {
 }
 
 /// Only serves to be able to show my macros expanded:
-/// cargo expand --lib
+/// cargo expand --example 01_simple
 fn main() {
     let mut _x = 0;
     double_statement!(_x += 2);
